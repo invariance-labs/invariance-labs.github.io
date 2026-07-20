@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node --check js/main.js)",
+      "Bash(node --check js/waveform.js)",
+      "Bash(node --check /Users/koushikswarna/invariance-labs/js/hero-field.js)",
+      "Bash(node --check /Users/koushikswarna/invariance-labs/js/main.js)",
+      "Bash(python3 -c 'import re,sys *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:8000/)",
+      "Skill(run)",
+      "Bash(chromium-cli --help)",
+      "Bash(command -v node)",
+      "Bash(command -v npx)",
+      "Bash(npx --yes playwright --version)",
+      "Read(//private/tmp/**)",
+      "Bash(npm init *)",
+      "Bash(node screenshot.mjs)",
+      "Bash(curl -s -o /dev/null -w \"home: %{http_code}\\\\n\" http://localhost:8000/)",
+      "Bash(curl -s -o /dev/null -w \"research: %{http_code}\\\\n\" http://localhost:8000/research.html)",
+      "Bash(curl -s -o /dev/null -w \"model: %{http_code}\\\\n\" http://localhost:8000/model.html)",
+      "Bash(curl -s -o /dev/null -w \"about: %{http_code}\\\\n\" http://localhost:8000/about.html)",
+      "Bash(curl -s -o /dev/null -w \"paper.pdf: %{http_code}\\\\n\" http://localhost:8000/assets/paper.pdf)",
+      "Bash(npx playwright *)",
+      "Bash(node webkit-test.mjs)"
+    ]
+  }
+}

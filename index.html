@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Invariance Labs — AI Research Lab</title>
+<meta name="description" content="Invariance Labs is an AI research lab. We study robustness, calibration, and failure structure across vision, language, and medicine.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22%23FAFAFA%22/><circle cx=%2250%22 cy=%2250%22 r=%2222%22 fill=%22none%22 stroke=%22%232D5BFF%22 stroke-width=%228%22/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">INVARIANCE&nbsp;LABS</a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" id="navLinks">
+      <a href="research.html">Research</a>
+      <a href="model.html">Model</a>
+      <a href="about.html">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero" id="top">
+    <div class="hero-field" aria-hidden="true">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+      <div class="blob blob-4"></div>
+    </div>
+
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow reveal">AI Research Lab</p>
+        <h1 class="reveal">Invariance Labs</h1>
+        <p class="hero-sub reveal">We build and study machine learning systems across vision, language, and medicine, uncovering how they succeed, how they fail, and where their confidence can't be trusted.</p>
+      </div>
+    </div>
+
+    <div class="hero-readout" aria-hidden="true">
+      <span class="readout-label">INVARIANT</span>
+      <span class="readout-value">σ = 0.00 · UNDER DRIFT</span>
+    </div>
+  </section>
+
+  <section class="teaser">
+    <div class="section-inner">
+      <p class="eyebrow reveal">What We Work On</p>
+      <div class="tag-row reveal">
+        <span class="tag">Medical AI</span>
+        <span class="tag">Computer Vision</span>
+        <span class="tag">NLP &amp; LLMs</span>
+        <span class="tag">Transformers &amp; ViTs</span>
+        <span class="tag">Diffusion Models</span>
+        <span class="tag">Reinforcement Learning</span>
+      </div>
+
+      <div class="teaser-links">
+        <a class="teaser-link reveal" href="research.html">
+          <p class="teaser-kicker">Research</p>
+          <h3>Cross-dataset error audit</h3>
+          <p>Where classifiers fail, and why confidence doesn't always tell you. <span class="arrow">→</span></p>
+        </a>
+        <a class="teaser-link reveal" href="model.html">
+          <p class="teaser-kicker">Model</p>
+          <h3>ATLAS-Net</h3>
+          <p>Multi-organ abdominal CT segmentation, trained across 145 centers. <span class="arrow">→</span></p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer" id="contact">
+  <div class="section-inner footer-inner">
+    <p class="eyebrow reveal">Get in Touch</p>
+    <div class="footer-links reveal">
+      <a href="mailto:koushikswarna3@gmail.com">koushikswarna3@gmail.com</a>
+      <a href="https://huggingface.co/Koushik45048545309" target="_blank" rel="noopener">Hugging Face</a>
+      <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <p class="copyright">© <span id="year"></span> Invariance Labs. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
