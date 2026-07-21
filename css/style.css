@@ -90,6 +90,9 @@ img, canvas { max-width: 100%; display: block; }
   position: relative;
   padding: 7rem 0;
 }
+.section.no-divider {
+  padding-bottom: 2.5rem;
+}
 .section.no-divider::before {
   content: none;
 }
@@ -386,7 +389,7 @@ img, canvas { max-width: 100%; display: block; }
 /* ---------- Home teaser (below hero) ---------- */
 .teaser {
   position: relative;
-  padding: 4.5rem 0 5.5rem;
+  padding: 4.5rem 0 2.5rem;
 }
 .teaser::before {
   content: "";
@@ -599,7 +602,7 @@ img, canvas { max-width: 100%; display: block; }
 /* ---------- Footer ---------- */
 .footer {
   position: relative;
-  padding: 6rem 0 3rem;
+  padding: 3.5rem 0 3rem;
 }
 .footer::before {
   content: "";
