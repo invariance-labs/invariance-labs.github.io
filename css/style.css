@@ -91,7 +91,7 @@ img, canvas { max-width: 100%; display: block; }
   padding: 7rem 0;
 }
 .section.no-divider {
-  padding-bottom: 2.5rem;
+  padding-bottom: 3rem;
 }
 .section.no-divider::before {
   content: none;
@@ -506,7 +506,7 @@ img, canvas { max-width: 100%; display: block; }
   padding: 2.5rem 0;
   border-bottom: 1px solid var(--hairline-strong);
 }
-.report-row:last-child { border-bottom: none; }
+.report-row:last-child { border-bottom: none; padding-bottom: 0; }
 .report-row-main { flex: 1; min-width: 0; }
 .report-row-title {
   font-size: clamp(1.25rem, 2vw, 1.5rem);
@@ -602,7 +602,7 @@ img, canvas { max-width: 100%; display: block; }
 /* ---------- Footer ---------- */
 .footer {
   position: relative;
-  padding: 3.5rem 0 3rem;
+  padding: 3rem 0 3rem;
 }
 .footer::before {
   content: "";
