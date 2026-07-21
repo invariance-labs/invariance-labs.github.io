@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Datasets — Invariance Labs</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Datasets | Invariance Labs</title>
 <meta name="description" content="Datasets and benchmarks released by Invariance Labs alongside our research.">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22%23FAFAFA%22/><circle cx=%2250%22 cy=%2250%22 r=%2222%22 fill=%22none%22 stroke=%22%232D5BFF%22 stroke-width=%228%22/></svg>">
+<link rel="icon" href="assets/favicon.ico" sizes="any">
+<link rel="icon" href="assets/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/favicon-180.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -38,41 +40,24 @@
       <p class="eyebrow reveal">Datasets</p>
       <h1 class="reveal">Datasets</h1>
       <p class="page-lede reveal">We release datasets and benchmarks alongside our research — built for reproducibility, and where possible, resistant to contamination.</p>
+      <hr class="page-header-divider reveal">
     </div>
   </section>
 
-  <section class="section">
+  <section class="section" style="padding-top: 0;">
     <div class="section-inner">
+      <div class="report-list">
 
-      <article class="report-item reveal">
-        <p class="report-meta">Invariance Labs · 2026</p>
-        <h2 class="report-title">SLM-COLLAPSE Benchmark Dataset</h2>
-        <p class="report-summary">2,800 procedurally generated benchmark items across four task families — composition (chained multi-step reasoning, 1–8 hops), constraints (simultaneous instruction-following, 1–10 constraints), entity tracking (sequential state updates across a simulated data structure), and counting (character-level precision tasks). Every item is generated and graded by deterministic code rather than human annotation — the ground-truth answer is produced as a byproduct of constructing each question, and independently re-derived by a separate verification script across all 45,872 graded responses, with zero mismatches.</p>
-
-        <div class="stat-grid">
-          <div class="stat">
-            <p class="stat-number">2,800</p>
-            <p class="stat-label">Procedurally generated benchmark items across four task families</p>
+        <article class="report-row reveal">
+          <div class="report-row-main">
+            <h2 class="report-row-title">SLM-COLLAPSE Benchmark Dataset</h2>
+            <p class="report-row-summary">2,800 procedurally generated benchmark items across four task families, deterministically graded with zero mismatches across 45,872 independent checks.</p>
+            <p class="report-row-meta">Invariance Labs · 2026</p>
           </div>
-          <div class="stat">
-            <p class="stat-number">4</p>
-            <p class="stat-label">Task families: composition, constraints, entity tracking, counting</p>
-          </div>
-          <div class="stat">
-            <p class="stat-number">0</p>
-            <p class="stat-label">Ground-truth mismatches across 45,872 independently re-derived checks</p>
-          </div>
-          <div class="stat">
-            <p class="stat-number">∞</p>
-            <p class="stat-label">Fresh, previously-unseen instances regenerable from any random seed</p>
-          </div>
-        </div>
+          <a class="report-row-link" href="https://github.com/invariance-labs/slm-collapse" target="_blank" rel="noopener">View Dataset</a>
+        </article>
 
-        <p class="report-summary">Because every item is generated from a random seed, a completely fresh benchmark instance can be produced at any time — directly addressing training-data contamination risk that static benchmarks are vulnerable to.</p>
-
-        <a class="btn" href="https://github.com/invariance-labs/slm-collapse" target="_blank" rel="noopener">View dataset &amp; code →</a>
-      </article>
-
+      </div>
     </div>
   </section>
 

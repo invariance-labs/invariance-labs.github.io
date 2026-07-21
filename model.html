@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Models — Invariance Labs</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Models | Invariance Labs</title>
 <meta name="description" content="Models released by Invariance Labs across medical imaging, vision, and language, including ATLAS-Net.">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22%23FAFAFA%22/><circle cx=%2250%22 cy=%2250%22 r=%2222%22 fill=%22none%22 stroke=%22%232D5BFF%22 stroke-width=%228%22/></svg>">
+<link rel="icon" href="assets/favicon.ico" sizes="any">
+<link rel="icon" href="assets/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/favicon-180.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -38,28 +40,24 @@
       <p class="eyebrow reveal">Models</p>
       <h1 class="reveal">Models</h1>
       <p class="page-lede reveal">We release models across medical imaging, vision, and language, documented with the same discipline as our research.</p>
+      <hr class="page-header-divider reveal">
     </div>
   </section>
 
-  <section class="section">
+  <section class="section" style="padding-top: 0;">
     <div class="section-inner">
+      <div class="report-list">
 
-      <article class="report-item reveal">
-        <p class="report-meta">Invariance Labs · nnU-Net v2</p>
-        <h2 class="report-title">ATLAS-Net</h2>
-        <p class="report-summary">We trained ATLAS-Net, a multi-organ abdominal CT segmentation model, on a large-scale multi-center dataset spanning 145 medical centers, segmenting 25 distinct organ and structure classes with pseudo-labels automatically corrected using anatomical rules.</p>
+        <article class="report-row reveal">
+          <div class="report-row-main">
+            <h2 class="report-row-title">ATLAS-Net</h2>
+            <p class="report-row-summary">A multi-organ abdominal CT segmentation model trained across 145 medical centers, segmenting 25 distinct organ and structure classes.</p>
+            <p class="report-row-meta">Invariance Labs · nnU-Net v2</p>
+          </div>
+          <a class="report-row-link" href="https://huggingface.co/Koushik45048545309/Atlas-Net" target="_blank" rel="noopener">View Model</a>
+        </article>
 
-        <dl class="model-facts">
-          <div><dt>Architecture</dt><dd>nnU-Net v2</dd></div>
-          <div><dt>Organ classes</dt><dd>25</dd></div>
-          <div><dt>Training sites</dt><dd>145 medical centers</dd></div>
-          <div><dt>Notable strength</dt><dd>GI-tract organ segmentation</dd></div>
-          <div><dt>License</dt><dd>CC BY 4.0</dd></div>
-        </dl>
-
-        <a class="btn" href="https://huggingface.co/Koushik45048545309/Atlas-Net" target="_blank" rel="noopener">View on Hugging Face →</a>
-      </article>
-
+      </div>
     </div>
   </section>
 

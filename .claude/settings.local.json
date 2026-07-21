@@ -22,7 +22,15 @@
       "Bash(curl -s -o /dev/null -w \"paper.pdf: %{http_code}\\\\n\" http://localhost:8000/assets/paper.pdf)",
       "Bash(npx playwright *)",
       "Bash(node webkit-test.mjs)",
-      "Bash(pkill -f \"http.server 8934\")"
+      "Bash(pkill -f \"http.server 8934\")",
+      "Bash(python3 -c \"import PIL; print\\(PIL.__version__\\)\")",
+      "Bash(fc-list)",
+      "Bash(python3 /private/tmp/claude-501/-Users-koushikswarna-invariance-labs/627fd24a-45be-4f5a-83c9-f2efb6c01032/scratchpad/make_favicon.py)",
+      "Bash(sed -i '' 's#<title>Research — Invariance Labs</title>#<title>Research | Invariance Labs</title>#' research.html)",
+      "Bash(sed -i '' 's#<title>Models — Invariance Labs</title>#<title>Models | Invariance Labs</title>#' model.html)",
+      "Bash(sed -i '' 's#<title>Datasets — Invariance Labs</title>#<title>Datasets | Invariance Labs</title>#' datasets.html)",
+      "Bash(sed -i '' 's#<title>About — Invariance Labs</title>#<title>About | Invariance Labs</title>#' about.html)",
+      "Bash(sed -i '' 's#<title>Invariance Labs — AI Research Lab</title>#<title>Invariance Labs</title>#' index.html)"
     ]
   }
 }

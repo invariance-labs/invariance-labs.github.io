@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Research — Invariance Labs</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research | Invariance Labs</title>
 <meta name="description" content="Research from Invariance Labs on robustness, calibration, and failure structure across vision, language, and medicine.">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22%23FAFAFA%22/><circle cx=%2250%22 cy=%2250%22 r=%2222%22 fill=%22none%22 stroke=%22%232D5BFF%22 stroke-width=%228%22/></svg>">
+<link rel="icon" href="assets/favicon.ico" sizes="any">
+<link rel="icon" href="assets/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/favicon-180.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -38,57 +40,33 @@
       <p class="eyebrow reveal">Research</p>
       <h1 class="reveal">Research</h1>
       <p class="page-lede reveal">We publish research on robustness, calibration, and failure structure across vision, language, and medicine — an ongoing, growing body of work.</p>
-
-      <p class="topics-line reveal">
-        <strong>Medical AI</strong><span class="sep">·</span><strong>Computer Vision</strong><span class="sep">·</span><strong>NLP &amp; LLMs</strong><span class="sep">·</span><strong>Transformers &amp; ViTs</strong><span class="sep">·</span><strong>Diffusion Models</strong><span class="sep">·</span><strong>Reinforcement Learning</strong>
-      </p>
+      <hr class="page-header-divider reveal">
     </div>
   </section>
 
-  <section class="section">
+  <section class="section" style="padding-top: 0;">
     <div class="section-inner">
+      <div class="report-list">
 
-      <article class="report-item reveal">
-        <p class="report-meta">Koushik Swarna, Invariance Labs · 2026</p>
-        <h2 class="report-title">Where Small Language Models Break: A Procedurally Generated, Self-Verifying Benchmark Across Fourteen Models</h2>
-        <p class="report-summary">A procedurally generated, self-verifying benchmark of 2,800 items testing 14 small language models (0.5B–4B parameters) across four failure modes — chained reasoning, instruction-following, state tracking, and character counting — entirely on consumer CPU hardware.</p>
-
-        <div class="stat-grid">
-          <div class="stat">
-            <p class="stat-number">14 / 6</p>
-            <p class="stat-label">Models tested across 6 architecture families, 0.5B–4B parameters, entirely on consumer CPU hardware</p>
+        <article class="report-row reveal">
+          <div class="report-row-main">
+            <h2 class="report-row-title">Where Small Language Models Break: A Procedurally Generated, Self-Verifying Benchmark Across Fourteen Models</h2>
+            <p class="report-row-summary">A procedurally generated, self-verifying benchmark testing 14 small language models across four failure modes — chained reasoning, instruction-following, state tracking, and character counting.</p>
+            <p class="report-row-meta">Koushik Swarna, Invariance Labs · 2026</p>
           </div>
-          <div class="stat">
-            <p class="stat-number">2,800</p>
-            <p class="stat-label">Benchmark items, verified with zero mismatches across 45,872 independent checks</p>
+          <a class="report-row-link" href="assets/slm-collapse.pdf" target="_blank" rel="noopener">Read Report</a>
+        </article>
+
+        <article class="report-row reveal">
+          <div class="report-row-main">
+            <h2 class="report-row-title">Minority-Class Failure and Confidence Miscalibration in Electrocardiogram Classification: A Cross-Dataset Error Audit</h2>
+            <p class="report-row-summary">Classification errors across seven ML classifiers and three ECG datasets concentrate in minority classes — and confidence is an unreliable signal of correctness.</p>
+            <p class="report-row-meta">Koushik Swarna, Invariance Labs · 2026</p>
           </div>
-          <div class="stat">
-            <p class="stat-number">&lt;50%</p>
-            <p class="stat-label">Instruction-following compliance once a prompt has more than 2–3 simultaneous constraints, regardless of model size</p>
-          </div>
-          <div class="stat">
-            <p class="stat-number">44.1%</p>
-            <p class="stat-label">Top overall accuracy (Llama 3.2 3B) — not the fastest model once latency reorders the leaderboard</p>
-          </div>
-        </div>
+          <a class="report-row-link" href="assets/paper.pdf" target="_blank" rel="noopener">Read Report</a>
+        </article>
 
-        <div class="btn-row">
-          <a class="btn" href="assets/slm-collapse.pdf" target="_blank" rel="noopener">Read the paper →</a>
-          <a class="btn btn-outline" href="https://github.com/invariance-labs/slm-collapse" target="_blank" rel="noopener">Code &amp; data →</a>
-        </div>
-      </article>
-
-      <p class="report-list-heading">Earlier work</p>
-
-      <article class="report-row reveal">
-        <div class="report-row-main">
-          <h3 class="report-row-title">Minority-Class Failure and Confidence Miscalibration in Electrocardiogram Classification: A Cross-Dataset Error Audit</h3>
-          <p class="report-row-summary">Classification errors across seven ML classifiers and three ECG datasets concentrate in minority classes and specific patients — and confidence is an unreliable, model-family-dependent signal of correctness.</p>
-          <p class="report-row-meta">Koushik Swarna, Invariance Labs · 2026</p>
-        </div>
-        <a class="report-row-link" href="assets/paper.pdf" target="_blank" rel="noopener">Read →</a>
-      </article>
-
+      </div>
     </div>
   </section>
 
