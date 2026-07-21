@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Datasets — Invariance Labs</title>
+<meta name="description" content="Datasets and benchmarks released by Invariance Labs alongside our research.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22%23FAFAFA%22/><circle cx=%2250%22 cy=%2250%22 r=%2222%22 fill=%22none%22 stroke=%22%232D5BFF%22 stroke-width=%228%22/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">INVARIANCE&nbsp;LABS</a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" id="navLinks">
+      <a href="research.html">Research</a>
+      <a href="datasets.html" aria-current="page">Datasets</a>
+      <a href="model.html">Models</a>
+      <a href="about.html">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-header">
+    <div class="section-inner">
+      <p class="eyebrow reveal">Datasets</p>
+      <h1 class="reveal">Datasets</h1>
+      <p class="page-lede reveal">We release datasets and benchmarks alongside our research — built for reproducibility, and where possible, resistant to contamination.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-inner">
+
+      <article class="report-item reveal">
+        <p class="report-meta">Invariance Labs · 2026</p>
+        <h2 class="report-title">SLM-COLLAPSE Benchmark Dataset</h2>
+        <p class="report-summary">2,800 procedurally generated benchmark items across four task families — composition (chained multi-step reasoning, 1–8 hops), constraints (simultaneous instruction-following, 1–10 constraints), entity tracking (sequential state updates across a simulated data structure), and counting (character-level precision tasks). Every item is generated and graded by deterministic code rather than human annotation — the ground-truth answer is produced as a byproduct of constructing each question, and independently re-derived by a separate verification script across all 45,872 graded responses, with zero mismatches.</p>
+
+        <div class="stat-grid">
+          <div class="stat">
+            <p class="stat-number">2,800</p>
+            <p class="stat-label">Procedurally generated benchmark items across four task families</p>
+          </div>
+          <div class="stat">
+            <p class="stat-number">4</p>
+            <p class="stat-label">Task families: composition, constraints, entity tracking, counting</p>
+          </div>
+          <div class="stat">
+            <p class="stat-number">0</p>
+            <p class="stat-label">Ground-truth mismatches across 45,872 independently re-derived checks</p>
+          </div>
+          <div class="stat">
+            <p class="stat-number">∞</p>
+            <p class="stat-label">Fresh, previously-unseen instances regenerable from any random seed</p>
+          </div>
+        </div>
+
+        <p class="report-summary">Because every item is generated from a random seed, a completely fresh benchmark instance can be produced at any time — directly addressing training-data contamination risk that static benchmarks are vulnerable to.</p>
+
+        <a class="btn" href="https://github.com/invariance-labs/slm-collapse" target="_blank" rel="noopener">View dataset &amp; code →</a>
+      </article>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer" id="contact">
+  <div class="section-inner footer-inner">
+    <p class="eyebrow reveal">Get in Touch</p>
+    <div class="footer-links reveal">
+      <a href="mailto:koushikswarna3@gmail.com">koushikswarna3@gmail.com</a>
+      <a href="https://huggingface.co/Koushik45048545309" target="_blank" rel="noopener">Hugging Face</a>
+      <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <p class="copyright">© <span id="year"></span> Invariance Labs. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

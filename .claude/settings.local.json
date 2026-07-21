@@ -21,7 +21,8 @@
       "Bash(curl -s -o /dev/null -w \"about: %{http_code}\\\\n\" http://localhost:8000/about.html)",
       "Bash(curl -s -o /dev/null -w \"paper.pdf: %{http_code}\\\\n\" http://localhost:8000/assets/paper.pdf)",
       "Bash(npx playwright *)",
-      "Bash(node webkit-test.mjs)"
+      "Bash(node webkit-test.mjs)",
+      "Bash(pkill -f \"http.server 8934\")"
     ]
   }
 }
