@@ -30,7 +30,8 @@
       "Bash(sed -i '' 's#<title>Models — Invariance Labs</title>#<title>Models | Invariance Labs</title>#' model.html)",
       "Bash(sed -i '' 's#<title>Datasets — Invariance Labs</title>#<title>Datasets | Invariance Labs</title>#' datasets.html)",
       "Bash(sed -i '' 's#<title>About — Invariance Labs</title>#<title>About | Invariance Labs</title>#' about.html)",
-      "Bash(sed -i '' 's#<title>Invariance Labs — AI Research Lab</title>#<title>Invariance Labs</title>#' index.html)"
+      "Bash(sed -i '' 's#<title>Invariance Labs — AI Research Lab</title>#<title>Invariance Labs</title>#' index.html)",
+      "Bash(cd *)"
     ]
   }
 }
