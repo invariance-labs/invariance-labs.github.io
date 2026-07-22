@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="https://www.xml-sitemaps.com/css/sitemap.css"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+       <loc>https://invariance-labs.github.io/</loc>
+       <lastmod>2026-07-22T01:54:44+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>1.0000</priority>
+  </url>
+  <url>
+       <loc>https://invariance-labs.github.io/index.html</loc>
+       <lastmod>2026-07-22T01:54:44+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://invariance-labs.github.io/research.html</loc>
+       <lastmod>2026-07-22T01:54:44+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://invariance-labs.github.io/datasets.html</loc>
+       <lastmod>2026-07-22T01:54:44+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://invariance-labs.github.io/model.html</loc>
+       <lastmod>2026-07-22T01:54:44+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://invariance-labs.github.io/about.html</loc>
+       <lastmod>2026-07-22T01:54:44+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://invariance-labs.github.io/assets/paper2_compiled_final.pdf</loc>
+       <lastmod>2026-07-22T01:54:44+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://invariance-labs.github.io/assets/slm-collapse.pdf</loc>
+       <lastmod>2026-07-22T01:54:44+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://invariance-labs.github.io/assets/paper.pdf</loc>
+       <lastmod>2026-07-22T01:54:44+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+</urlset>
