@@ -31,7 +31,8 @@
       "Bash(sed -i '' 's#<title>Datasets — Invariance Labs</title>#<title>Datasets | Invariance Labs</title>#' datasets.html)",
       "Bash(sed -i '' 's#<title>About — Invariance Labs</title>#<title>About | Invariance Labs</title>#' about.html)",
       "Bash(sed -i '' 's#<title>Invariance Labs — AI Research Lab</title>#<title>Invariance Labs</title>#' index.html)",
-      "Bash(cd *)"
+      "Bash(cd *)",
+      "Bash(pkill -f \"http.server 8765\")"
     ]
   }
 }
